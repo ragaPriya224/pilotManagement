@@ -1,0 +1,8 @@
+Iterator:
+
+for any universal cursor
+-> read, remove 
+method:
+hasNext()
+next()
+remove
