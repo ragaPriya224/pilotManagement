@@ -10,6 +10,7 @@ public class HashMapDemo {
 		foodMap.put(101, "user");
 		foodMap.put(105, "dev");
 		foodMap.put(103, "tester");
+		
 //		System.out.println(foodMap);
 //		System.out.println(foodMap.keySet());
 //		System.out.println(foodMap.values());
