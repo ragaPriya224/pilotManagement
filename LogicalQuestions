@@ -1,0 +1,74 @@
+JAVA LOGICAL QUESTIONS 
+
+STRING
+1. Write a program to find the EB bill with the given inputs,
+input1="abc2012345"
+input2="abc2012660"
+input 3=4
+In the given input1 "abc20" refers to customer id and 12345 refers to the last month 
+EB reading, similarly from input2 “abc20” refers to customer id and 12660 refers to 
+this month EB reading.
+Find the difference between two reading 12660 and 12345 and multiply it by input3.
+Sample Output
+Output=(12660-12345)*4
+Output=1260
+
+
+2. Find the max length-word in each string and return the max-length word. if 
+two words are of same length return the first occurring word of max-length?.
+input: "hello how are you Jenny"
+output: hello(length-5)
+
+
+3. Given a string, reverse the string and parse it with '-'.
+input:computer
+output:r-e-t-u-p-m-o-c
+
+
+4. Given two strings, If the two strings are of same length concatenate them, if 
+they are not of same length, reduce the longer string to size of smaller one, and 
+concatenate them
+input1:"hello"
+input2:"hi" 
+output:"lohi"
+
+
+5. A number is given as input. Find the odd digits in the number, add them, and 
+find if the sum is odd or not. If even return 1, if odd return 2
+input:52315
+logic:5+3+1+5=14(even)
+output:1
+input:1112
+logic:1+1+1=3(odd)
+output:2
+----------------------------------------------------------------
+ARRAY
+6. Get two integer arrays as input, identify the common elements in the arrays
+and find the number of common elements.
+input1: {1,2,3,4}
+input2: {3,4,5,6}
+output: 4(3,4,3,4)
+
+
+7. Given integer array, remove the duplicate elements and print sum of even 
+numbers in the array.
+input 1={2,3,54,1,6,7,7}
+
+----------------------------
+COLLECTION
+8. Given the hashmap with registration number as key and mark as value. Find 
+the average of marks whose key is odd.
+input:{12:90,35:90,33:88,56:90}
+output: avg of(90+90) =90
+
+9. Given two hashmap h1 with employee id and designation and hashmap h2 
+with id and salary, in a new hashmap the manager id and salary with the 
+increment of 5000 must added and printed.
+Input h1: {1="analyst",2="manager"}
+Input h2: {1=2000,2=5000}
+output: {2=10000}
+
+10. Given a hashmap with employee name as Key and mark as Value, if the mark 
+is greater than 75, then display Pass else Fail.
+Input: {“Anu”:88,”Varun”:69,”Thomas”:76}
+Output: {“Anu”:”Pass”,”Varun”:”Fail”,”Thomas”:”Pass”}
