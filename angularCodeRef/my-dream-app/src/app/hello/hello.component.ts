@@ -11,5 +11,7 @@ export class HelloComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  greetUser(){
+    return "Hello I'm "+this.superHero;
+  }
 }
