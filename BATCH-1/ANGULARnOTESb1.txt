@@ -1,0 +1,94 @@
+version -> 1.2.3 
+1 -> major release
+2 ->minor release
+3 ->patch 
+
+prerequirement:
+1. node js install
+2. angular cli install
+cli -> command line interface
+
+npm install -g @angular/cli
+ng new my-dream-app
+cd my-dream-app
+ng serve / npm start
+
+3. editor -> visual studio code 
+
+
+localhost:4200
+default port
+
+
+Package.json -> dependencies, dev dep, modules,scripts
+Flow? Main.ts -> app.module-> app.component.ts -> app.component.html 
+
+-----------------------------
+ARCHITECTURE:
+
+1. MODULE 
+
+
+Angular application ->collection of modules
+root module ->app module 
+module ->  represent feature area in application Eg: usermodule
+
+module = component+services
+
+
+2. component 
+root component -> app component
+controls portion of view in browser
+al components = module1
+
+component -> html, 
+ html ->
+css -> 
+
+appcomponent -> control logic 
+3. services 
+
+business logic 
+module = component+services
+
+
+---------------
+ ng g c hello
+g->generate
+c-> component
+hello -> name 
+
+
+------------------
+selector : 'app-test'                      <app-test>
+ selector: '.app-hello',                    <div class = 'app-test'></div>
+  selector: '[app-hello]',                  <div app-hello></div>
+
+--------------
+@Component({
+  selector: '.app-test',
+  templateUrl: './test.component.html',     -> html 
+  styleUrls: ['./test.component.css']        -> css file 
+})
+Interpolation -> binding data of class to template {{ }}
+{{name }}->html
+name = ‘user20’  in class
+
+-----------------------------------
+class binding
+
+<h2 class = "text-success">code</h2>
+
+
+.text-success{
+    color:green;
+}
+.text-special{
+    font-style: italic;
+}
+
+o/p: code ->green
+
+
+--------
+
